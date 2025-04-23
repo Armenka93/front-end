@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> <link rel="stylesheet" type="text/css" href="styletest.css">
     <title>Моя первая страница</title>
-</head> <link rel="stylesheet" type="text/css" href="styletest.css">
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); // предотвращает перезагрузку страницы
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            alert('Имя:'+ name + '\nЭлектронная почта:' + email); }
+    </script>
+</head> 
 <body>
     <h1>Привет, мир!</h1>
+    <form onsubmit="submitForm(event)">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Электронная почта:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <button type="submit">Отправить</button>
+    </form>
 <p>Это моя первая веб-страница!</p>
 
 <a href="https://www.google.com">Перейти на Google</a>

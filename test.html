@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head> <link rel="stylesheet" type="text/css" href="styletest.css">
-    <title>Моя первая страница</title>
-    <script>
+      <script>
         function submitForm(event) {
-            event.preventDefault(); // предотвращает перезагрузку страницы
+            event.preventDefault();
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            alert('Имя:'+ name + '\nЭлектронная почта:' + email); }
+            alert('Имя: ' + name + '\nЭлектронная почта: ' + email);
+        }
     </script>
+
+<title>Тест</title>
 </head> 
 <body>
-    <h1>Привет, мир!</h1>
+    <h1>Армен</h1>
+<p>Мне 31 год, живу в Одессе, пробую в свободное время себя в айти</p>
+
+<a href="https://portal.pfu.gov.ua/sidebar/Templates/WorkIncapacityPersonList">Мего крутой сайт</a>
+
+<img src="https://cdn.lifehacker.ru/wp-content/uploads/2020/01/1119-white-flower-2_1579261223.jpg" 
+alt="Чисто прикол">
+
     <form onsubmit="submitForm(event)">
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name"><br><br>
@@ -20,16 +29,6 @@
 
         <button type="submit">Отправить</button>
     </form>
-<p>Это моя первая веб-страница!</p>
 
-<a href="https://www.google.com">Перейти на Google</a>
-
-<img src="https://via.placeholder.com/150" alt="Пример изображения">
-
-<ul>
-    <li style="list-style-type: square;">Первый элемент списка</li>
-    <li style="list-style-type: square;">Второй элемент списка</li>
-    <li style="list-style-type: square;">Третий элемент списка</li>
-</ul>
 </body>
 </html>

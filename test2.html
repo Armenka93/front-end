@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница с новым тегом</title>
+<link rel="stylesheet" type="text/css" href="styletest2.css">
+<script>
+    function changeBackgroundColor() {
+        document.body.style.backgroundColor = "lightblue";
+    }
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="red-text">Привет мир!   </h1>
+        <p>Это моя первая страница</p>
+
+    </div>
+    <div style="border: 1px solid black; padding: 10px;">
+    <h2> Мой раздел </h2>
+    <p>Это <span style="color: red;"> выделенный текст</span> внутри раздела. </p>
+ </div>
+    <h3>Таблица</h3>
+    <table border="1">
+<tr>
+    <th>Имя</th>
+    <th>Возраст</th>
+</tr>
+<tr>
+    <td>Аня</td>
+    <td>25</td>
+</tr>
+<tr>
+    <td>Армен</td>
+    <td>31</td>
+</tr>
+    </table>
+    <button onclick="changeBackgroundColor()">Сменить фон</button>
+</body>
+</html>

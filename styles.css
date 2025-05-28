@@ -1,0 +1,114 @@
+/* #region circle */
+body {
+  display: grid;
+  grid-template-rows: 1fr auto; 
+  flex-direction: column; 
+  margin: 0;
+  height: 100vh; 
+  background: radial-gradient(
+    circle at 50% 110%,                
+    #813FC5,
+    black 40%      );
+    backdrop-filter: blur(160px);
+  -webkit-backdrop-filter: blur(100px);
+}
+ /* #endregion */
+/* #region html */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* #endregion */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.apple-text {
+display: flex;
+justify-content: space-between;
+gap: 8px;
+}
+
+.text {
+  margin-right: 350px;
+  margin-top: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdaecd;
+}
+
+ .tapps {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  background: linear-gradient(51deg, #c2a5df 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  padding-left: 30px;
+  padding-top: 5px;
+  
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(Fonts/Gilroy-ExtraBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(Fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+
+.app-link {
+  padding-right: 30px ;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  line-height: 133%;
+  text-align: center;
+   font-size: 18px;
+}
+
+.apple {
+  padding-left: 70px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7a7480;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%; 
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.legal-links {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}

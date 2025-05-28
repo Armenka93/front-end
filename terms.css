@@ -1,0 +1,150 @@
+body {
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: #000;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .tapps {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  background: linear-gradient(51deg, #c2a5df 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  padding-left: 30px;
+  padding-top: 5px;
+ }
+ 
+.apple-text {
+display: flex;
+justify-content: space-between;
+gap: 8px;
+}
+
+.app-link {
+  display: inline-block;
+  padding-right: 30px ;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  line-height: 24px; 
+  line-height: 133%;
+  text-align: center;
+   font-size: 18px;
+}
+
+.apple {
+  padding-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  padding: 50px 300px 124px;
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  align-items: center;
+  width: 800px;
+}
+
+h1 {
+font-weight: 600;
+font-size: 56px;
+line-height: 56px;
+color: #fff;
+margin-bottom: 0;
+}
+
+
+.title {
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-top: 32px;
+padding-left: 0;
+}
+
+.ol {
+  padding-left: 0;
+  list-style-position: inside; 
+}
+
+.description {
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+margin-top: 16px;
+padding-left: 0;
+padding-right: 30px;
+}
+
+ul.description {
+  list-style: disc; 
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.links {
+  list-style: disc; 
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.links li {
+  margin-top: -18px;
+  margin-bottom: 20px; 
+}
+.data {
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+color: #a4a4a4;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: -50px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; 
+  line-height: 150%;
+  color: #7a7480;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.legal-links {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(Fonts/Gilroy-ExtraBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(Fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
